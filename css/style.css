@@ -1,0 +1,174 @@
+body{
+  background-color: #112B3C;
+  color: #EAF6F6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+a{
+  margin: 10px 20px;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin: 50px auto 0px auto;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+p{
+  line-height: 2
+}
+
+a{
+  color: #11999E;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.intro{
+  width:30%;
+  margin: auto;
+}
+
+.top-container{
+background-color: #15133C;
+padding: 100px 0;
+position: relative;
+}
+
+.middle-container{
+padding-top: 50px;
+position: relative;
+margin:100px 0;
+}
+
+.astronaut{
+  height: 200px;
+  width: 200px;
+  position:absolute;
+  right: 150px;
+  top:30px;
+}
+
+.planet{
+  width: 613.33333px;
+  height: 345.33333px;
+}
+
+.meteor{
+  height: 200px;
+  width: 200px;
+  position:absolute;
+  left:250px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.computer{
+  width: 33%;
+  float: left;
+  padding-right: 30px;
+}
+
+.edit{
+   width: 33%;
+   float: right;
+   padding-left: 30px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #6D8B74;
+    border-width: 6px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+
+.talk{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container{
+  background-color: #11999E;
+  padding: 50px 0 20px;
+}
+
+.footer-link{
+  margin:10px 20px;
+}
+
+.footer img {
+    transition: all 0.5s ease-in-out;
+}
+.footer-link:hover img {
+    transform: scale(1.1,1.1);
+    transform-origin: 0 0;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.60rem;
+  padding: 20px 0;
+}
+
+@media (max-width: 995px) {
+  .astronaut {
+    position: static;
+    height:150px;
+    width: 150px;
+  }
+  .planet{
+    position: static;
+    width: 408.666666px;
+    height: 230px;
+  }
+
+  .meteor{
+    position: static;
+    height: 150px;
+    width: 150px;
+  }
+  .footer-link{
+    margin:10px 5px;
+  }
+
+  .footer-img {
+    height: 20px;
+    width:20px;
+      transition: all 0.5s ease-in-out;
+  }
+  .footer-link:hover img {
+
+      transform: scale(1.1,1.1);
+      transform-origin: 0 0;
+  }
+
+  .copyright{
+    color: #EAF6F6;
+    font-size: 0.60rem;
+    padding: 20px 0;
+}
